@@ -1,6 +1,6 @@
 # Hilton Review
 
-[Deployed Netlify Hilton App so that whoever reviews can just click this, then just review code.](https://hilton-hotels.netlify.com/)
+[Deployed Netlify Hilton App so that whoever reviews can just click this, then just review code.](https://hilton-hotels.netlify.com/login)
 
 ## What I was able to do
 

@@ -55,11 +55,11 @@ class DynamicForm extends Component {
           [precendingRoomAnother]: !this.state[precendingRoomAnother]
         })
       }
-    } else {
-      this.setState({
-        [room]: !this.state[room]
-      })
     }
+
+    this.setState({
+      [room]: !this.state[room]
+    })
   }
 
   render () {
