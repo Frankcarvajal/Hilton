@@ -1,6 +1,6 @@
 # Hilton Review
 
-
+[Deployed Netlify Hilton App so that whoever reviews can just click this, then just review code.](https://hilton-hotels.netlify.com/)
 
 ## What I was able to do
 
@@ -30,4 +30,3 @@ React via CRA, StandardJS coding style, @reach/router (more accessible vs RRv4 &
 
 ### Updates to tech stack:
 I would probably try to encapsulate some log, perhaps not use lodash and instead create my own getters or setters internally,
-

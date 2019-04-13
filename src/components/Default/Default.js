@@ -3,6 +3,8 @@ import './default.css'
 import React, { Component } from 'react'
 import logo from './logo.svg'
 
+// This is from CRA, could just delete from Dir to be honest...
+
 export default class Default extends Component {
   render () {
     return (
