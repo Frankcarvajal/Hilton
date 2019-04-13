@@ -77,7 +77,6 @@ class DynamicForm extends Component {
               <select>
                 <option defaultValue='1'>1</option>
                 <option value='0'>0</option>
-                <option value='1'>1</option>
                 <option value='2'>2</option>
                 <option value='3'>3</option>
               </select>
@@ -85,7 +84,6 @@ class DynamicForm extends Component {
               <label>Children (0-17)</label>
               <select>
                 <option defaultValue='0'>0</option>
-                <option value='0'>0</option>
                 <option value='1'>1</option>
                 <option value='2'>2</option>
                 <option value='3'>3</option>
@@ -107,7 +105,6 @@ class DynamicForm extends Component {
               <select disabled={!this.state.roomTwoEnabled} >
                 <option defaultValue='1'>1</option>
                 <option value='0'>0</option>
-                <option value='1'>1</option>
                 <option value='2'>2</option>
                 <option value='3'>3</option>
               </select>
@@ -115,7 +112,6 @@ class DynamicForm extends Component {
               <label>Children (0-17)</label>
               <select disabled={!this.state.roomTwoEnabled} >
                 <option defaultValue='0'>0</option>
-                <option value='0'>0</option>
                 <option value='1'>1</option>
                 <option value='2'>2</option>
                 <option value='3'>3</option>
@@ -136,7 +132,6 @@ class DynamicForm extends Component {
               <select disabled={!this.state.roomThreeEnabled} >
                 <option defaultValue='1'>1</option>
                 <option value='0'>0</option>
-                <option value='1'>1</option>
                 <option value='2'>2</option>
                 <option value='3'>3</option>
               </select>
@@ -144,7 +139,6 @@ class DynamicForm extends Component {
               <label>Children (0-17)</label>
               <select disabled={!this.state.roomThreeEnabled} >
                 <option defaultValue='0'>0</option>
-                <option value='0'>0</option>
                 <option value='1'>1</option>
                 <option value='2'>2</option>
                 <option value='3'>3</option>
@@ -165,7 +159,6 @@ class DynamicForm extends Component {
               <select disabled={!this.state.roomFourEnabled} >
                 <option defaultValue='1'>1</option>
                 <option value='0'>0</option>
-                <option value='1'>1</option>
                 <option value='2'>2</option>
                 <option value='3'>3</option>
               </select>
@@ -173,7 +166,6 @@ class DynamicForm extends Component {
               <label>Children (0-17)</label>
               <select disabled={!this.state.roomFourEnabled} >
                 <option defaultValue='0'>0</option>
-                <option value='0'>0</option>
                 <option value='1'>1</option>
                 <option value='2'>2</option>
                 <option value='3'>3</option>
