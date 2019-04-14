@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Details from './Details'
+import Label from '../Label/Label'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<Details />, div)
+  ReactDOM.render(<Label />, div)
   ReactDOM.unmountComponentAtNode(div)
 })

@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ManagerFeedback from './ManagerFeedback'
+import ViewSurvey from '../../views/ViewSurvey/ViewSurvey'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<ManagerFeedback />, div)
+  ReactDOM.render(<ViewSurvey />, div)
   ReactDOM.unmountComponentAtNode(div)
 })

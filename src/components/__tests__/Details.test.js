@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Staff from './Staff'
+import Details from '../Details/Details'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<Staff />, div)
+  ReactDOM.render(<Details />, div)
   ReactDOM.unmountComponentAtNode(div)
 })

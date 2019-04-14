@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import HotelList from './HotelList'
+import ProgressScale from '../ProgressScale/ProgressScale'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<HotelList />, div)
+  ReactDOM.render(<ProgressScale />, div)
   ReactDOM.unmountComponentAtNode(div)
 })

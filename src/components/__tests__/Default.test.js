@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ProgressScale from './ProgressScale'
+import Default from '../Default/Default'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<ProgressScale />, div)
+  ReactDOM.render(<Default />, div)
   ReactDOM.unmountComponentAtNode(div)
 })

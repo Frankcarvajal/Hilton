@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Avatar from './Avatar'
+import AppFooter from '../AppFooter/AppFooter'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<Avatar />, div)
+  ReactDOM.render(<AppFooter />, div)
   ReactDOM.unmountComponentAtNode(div)
 })

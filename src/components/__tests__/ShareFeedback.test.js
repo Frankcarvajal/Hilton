@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Home from './Home'
+import ShareFeedback from '../../views/ShareFeedback/ShareFeedback'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<Home />, div)
+  ReactDOM.render(<ShareFeedback />, div)
   ReactDOM.unmountComponentAtNode(div)
 })

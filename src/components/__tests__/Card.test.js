@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Label from './Label'
+import Card from '../Card/Card'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<Label />, div)
+  ReactDOM.render(<Card />, div)
   ReactDOM.unmountComponentAtNode(div)
 })

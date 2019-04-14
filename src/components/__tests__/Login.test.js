@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import HotelDetails from './HotelDetails'
+import Login from '../../views/Login/Login'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<HotelDetails />, div)
+  ReactDOM.render(<Login />, div)
   ReactDOM.unmountComponentAtNode(div)
 })

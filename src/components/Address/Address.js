@@ -35,25 +35,25 @@ export default class Address extends PureComponent {
     zipcode: ''
   }
 
-  static Street = ({ address, twoLines, style, sqaPrefix }) => {
+  static Street = ({ address, twoLines, style }) => {
     const { street, unitNumber } = address
-    return <span style={style} data-sqa-id={sqaPrefix + '-Street'}>{street}{unitNumber && ` ${unitNumber}`}{twoLines ? <br /> : ', '}</span>
+    return <span style={style}>{street}{unitNumber && ` ${unitNumber}`}{twoLines ? <br /> : ', '}</span>
   }
 
-  static CityStateZip = ({ address, style, sqaPrefix }) => {
+  static CityStateZip = ({ address, style }) => {
     const { city, state, zipcode } = address
-    return <span style={style} data-sqa-id={sqaPrefix + '-CityStateZip'}>{city}, {state} {zipcode}</span>
+    return <span style={style}>{city}, {state} {zipcode}</span>
   }
 
   render () {
-    const { street, city, state, zipcode, unitNumber, twoLines, children, sqaPrefix } = this.props
+    const { street, city, state, zipcode, unitNumber, twoLines, children } = this.props
     const formatStreet = titleCase(street)
     const formatState = (state && state.length) ? state.toUpperCase() : NO_DATA
     const formatZip = (zipcode && zipcode.length) ? zipcode.substr(0, 5) : NO_DATA
 
     return children
       ? (
-        <span className='address-component' data-sqa-component-name={sqaPrefix}>
+        <span className='address-component'>
           {Children.map(children, (child) => React.cloneElement(child, {
             style: child.props.style,
             address: {

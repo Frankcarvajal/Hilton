@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import DynamicForm from './DynamicForm'
+import Home from '../../views/App/Home'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<DynamicForm />, div)
+  ReactDOM.render(<Home />, div)
   ReactDOM.unmountComponentAtNode(div)
 })
