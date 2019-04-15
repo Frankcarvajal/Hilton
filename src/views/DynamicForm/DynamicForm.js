@@ -1,6 +1,4 @@
-/* eslint-disable react/prop-types */
 import React, { Component } from 'react'
-// import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import {
@@ -44,20 +42,15 @@ class DynamicForm extends Component {
       // Loop through the hashTable & if there is no localStorage value, set default else use the localStorage value that exists & set local component state to the value
       for (let property in roomValuesLookup) {
         if (roomValuesLookup[property] && !roomValuesLookup[property].value) {
-          const roomEnabled = `${roomValuesLookup[property].name}Enabled`
-          console.log('roomEnabled: ', roomEnabled)
-          // window.localStorage.setItem(roomValuesLookup[property].name, JSON.stringify([1, 0]))
           this.setState({
             [roomValuesLookup[property].name]: {
               adults: 1,
               children: 0
             }
-            // [roomEnabled]: true
           })
         } else {
           const localStorageValue = JSON.parse(roomValuesLookup[property].value)
           const roomEnabled = `${roomValuesLookup[property].name}Enabled`
-          console.log('roomEnabled: ', roomEnabled)
           this.setState({
             [roomValuesLookup[property].name]: {
               adults: localStorageValue[0],
@@ -107,7 +100,6 @@ class DynamicForm extends Component {
     }
 
     filterOptions = (room, type, options) => {
-      console.log('huh', options.filter(option => option !== Number(room[type])))
       return options.filter(option => option !== Number(room[type]))
     }
 

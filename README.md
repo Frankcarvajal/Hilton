@@ -2,6 +2,17 @@
 
 [Deployed Netlify Hilton App](https://hilton-hotels.netlify.com/login)
 
+This applicaton does work in Chrome, but I coded it locally with Firefox.
+
+# The Challenges:
+
+*The first assessment*, given plenty of time to tweak with CSS and make pixel perfect, I could match this mock. I've matched hundreds of mocks at my last company for entire RealEstate SaaS platforms designed by a prior Google/Apple Designer. I went for building mre than building less & just one small thing. Though this goes against my typical development practices daily which is very thorough, I wanted to show inititive.
+
+*The second assessment*, I definitely would love to refactor this, and I think there are some cleaner ways to do this with a functional components simply broken out and using hooks. I did use localStorage and it does persist a full page reload for the various selections of the form.
+
+*Both assessments*, Daily I to TDD and typically write tests with components, and I don't just test if it renders, I actually test the logic to be what the user expects. But this takes time to produce quality, and in this assignment, I didn't have near the amount of time I wanted to put forth. And at some point I had to just throw the towel in and say 4hrs is all I have to give for now.
+
+*I'm thorough, and this small code challenge doesn't reveal that like I would hope to.*
 
 ## Tech Stack
 
