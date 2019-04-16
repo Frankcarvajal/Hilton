@@ -2,7 +2,12 @@
 
 [Deployed Netlify Hilton App](https://hilton-hotels.netlify.com/login)
 
-This applicaton does work in Chrome, but I coded it locally with Firefox.
+## This applicaton does work in Chrome, but the form only works in Firefox as that's what I spent the time coding in it with and there are differences with localStorage.
+Asthetically it looks horrid in Chrome also, head's up! Ha.
+
+Typically, I've supported Chrome with customers, so normally I'd develop there. Or with more time ensure cross OS handling / polyfills etc.
+
+![](https://imgur.com/ErdpJsT)
 
 # The Challenges:
 
