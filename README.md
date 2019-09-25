@@ -2,22 +2,21 @@
 
 [Deployed Netlify Hilton App](https://hilton-hotels.netlify.com/login)
 
-## This applicaton does work in Chrome, but the form only works in Firefox as that's what I spent the time coding in it with and there are differences with localStorage.
-Asthetically it looks horrid in Chrome also, head's up! Ha.
+## This applicaton does work in Chrome, but the form works better in Firefox as that's what I spent the time coding in it with and there are differences with localStorage. With more time I'd ensure it works in both with any js polyfill needed.
+Asthetically it looks worse in Chrome also, head's up! Ha. I did build all the lib components from scratch so that took some time.
 
-Typically, I've supported Chrome with customers, so normally I'd develop there. Or with more time ensure cross OS handling / polyfills etc.
 
 ![](https://imgur.com/ErdpJsT)
 
 # The Challenges:
 
-*The first assessment*, given plenty of time to tweak with CSS and make pixel perfect, I could match this mock. I've matched hundreds of mocks at my last company for entire RealEstate SaaS platforms designed by a prior Google/Apple Designer. I went for building mre than building less & just one small thing. Though this goes against my typical development practices daily which is very thorough, I wanted to show inititive.
+*The first assessment*, given plenty of time to tweak with CSS and make pixel perfect, I could match this mock & provide media queries for the entire application. I've matched hundreds of mocks at my last company for entire RealEstate SaaS platforms designed by a prior Google/Apple Designer. I went for building more than building less & just one small thing. Though this goes against my typical development practices daily which is very thorough, I wanted to show inititive & shear output, to be honest I was having fun.
 
-*The second assessment*, I definitely would love to refactor this, and I think there are some cleaner ways to do this with a functional components simply broken out and using hooks. I did use localStorage and it does persist a full page reload for the various selections of the form.
+*The second assessment*, I definitely would love to refactor this, and I think there are some cleaner ways to do this with a functional components simply broken out and using hooks. I did use localStorage and it does persist a full page reload for the various selections of the form after submitting.
 
-*Both assessments*, Daily I to TDD and typically write tests with components, and I don't just test if it renders, I actually test the logic to be what the user expects. But this takes time to produce quality, and in this assignment, I didn't have near the amount of time I wanted to put forth. And at some point I had to just throw the towel in and say 4hrs is all I have to give for now.
+*Both assessments*, Daily I to TDD and typically write tests with components, and I don't just test if it renders, I actually test the logic to be what the user expects. But this takes time to produce quality, and in this assignment, I didn't have near the amount of time I wanted to put forth. And at some point I had to just throw the towel in and say 4hrs is all I have to give for now. I did create a __test__ dir that does have tests in it, but they aren't a great representation of the tests I write nowadays.
 
-*I'm thorough, and this small code challenge doesn't reveal that like I would hope to.*
+*I'm thorough, and this small code challenge doesn't reveal that like I would hope to, but I wanted to have fun doing this coding challenge & once I found out the position was filled and Hilton wasn't even going to see my code about 1-2 hrs in, I decided to do what I wanted.*
 
 ## Tech Stack
 
@@ -25,15 +24,15 @@ Typically, I've supported Chrome with customers, so normally I'd develop there. 
 
 **@reach/router** More accessible vs RRv4 & still written by pal Ryan
 
-**Redux** Could use React Context, if this was with hooks and more time, or MobX if team is into observables.
+**Redux** Could use React Context, if this was with hooks and more time, or MobX if team is into observables & interested in rewire.
 
 **Jest/Enzyme** Though not TDD in this go, typically TDD for each component I build in real time. Perhaps Cypress or Selenium with SQA ids for automation if there is a QA team.
 
 **prop-types/flow** This could have been TypeScript depending on expectations
 
- **lodash** This could have been made internal vs package if more time.
+ **lodash** This could have been made internal vs package if more time, as I wasn't using a ton of lodash features.
 
-**Styled Components**
+**Styled Components** I'm also into Emotion, and I'm comfortable with Sass. I just like CSS in JS a lot.
 
 **classnames**
 
